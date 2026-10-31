@@ -1,0 +1,24 @@
+        body {
+            /* Photo by Sergei A. taken from Unsplash: https://unsplash.com/photos/pine-trees-field-near-mountain-under-sunset--heLWtuAN3c */
+            background-image: url('./../images/sunset-in-forest.jpg'); 
+            background-size: cover; 
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            margin: 0; 
+            height: 100vh;
+            grid-template-rows: 1fr auto;
+        }
+        footer {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: #FAF9F6;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        footer a {
+            color: #FAF9F6;
+        }
