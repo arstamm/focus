@@ -2,12 +2,14 @@
             /* Photo by Sergei A. taken from Unsplash: https://unsplash.com/photos/pine-trees-field-near-mountain-under-sunset--heLWtuAN3c */
             background-image: url('./../images/sunset-in-forest.jpg'); 
             background-size: cover; 
+            background-color: #000000;
             background-position: center center;
             background-repeat: no-repeat;
             background-attachment: fixed; 
             margin: 0; 
             height: 100vh;
             grid-template-rows: 1fr auto;
+            overflow: hidden;
         }
         footer {
             font-size: 12px;
